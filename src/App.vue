@@ -1,16 +1,20 @@
 <template>
   <div id="app">
     <Title />
+    <jumbotron/>
   </div>
 </template>
 
 <script>
-import Title from './components/Title.vue'
+import Title from './components/Title.vue';
+import Jumbotron from './components/Jumbotron.vue'
 
 export default {
   name: 'App',
   components: {
-    Title
+    Title,
+    Jumbotron,
+
   }
 }
 </script>
@@ -21,7 +25,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #da296d;
   margin-top: 60px;
 }
 </style>
